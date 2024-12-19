@@ -1,23 +1,10 @@
 {
-    "portalID": "sampo",
+    "portalID": "OntoVE",
     "rootUrl": "",
     "perspectives": {
         "searchPerspectives": [
-            "perspective1",
-            "perspective2",
-            "perspective3",
-            "perspective4",
-            "fullTextSearch"
-        ],
-        "onlyInstancePages": [
-            "manuscripts",
-            "collections",
-            "works",
-            "expressions",
-            "events",
-            "actors",
-            "places"
-        ]
+            "Texts","Events", "Places", "Locations", "Entities", "RelatedResources", "CulturalScope"],
+        "onlyInstancePages": [ ]
     },
     "localeConfig": {
         "defaultLocale": "en",
@@ -26,12 +13,14 @@
             {
                 "id": "en",
                 "label": "English",
-                "filename": "localeEN.json"
+                "filename": "localeEN",
+                "format":"js"
             },
             {
-                "id": "fi",
-                "label": "English",
-                "filename": "localeFI.json"
+                "id": "it",
+                "label": "Italian",
+                "filename": "localeIT",
+                "format":"js"
             }
         ]
     },
@@ -45,7 +34,7 @@
     },
     "knowledgeGraphMetadataConfig": {
         "showTable": false,
-        "perspective": "perspective1" 
+        "perspective": "" 
     },
     "layoutConfig": {
         "colorPalette": {
@@ -66,7 +55,7 @@
             "logoTextTransform": "none",
             "hideLogoTextOnMobile": true,
             "showLanguageButton": true,
-            "feedbackLink": "https://link.webropolsurveys.com/...",
+            "feedbackLink": "",
             "externalInstructions": false,
             "externalAboutPage": false,
             "reducedHeight": 48,
@@ -87,7 +76,7 @@
             ]
         },
         "mainPage": {
-            "bannerImage": "main_page/mmm-banner.jpg",
+            "bannerImage": "main_page/gondolas.jpg",
             "bannerBackround": "linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(<BANNER_IMAGE_URL)",
             "bannerMobileHeight": 150,
             "bannerReducedHeight": 220,
@@ -109,8 +98,8 @@
             }
         },
         "footer": {
-            "reducedHeight": 44,
-            "defaultHeight": 64
+            "reducedHeight": 100,
+            "defaultHeight": 120
         }
     },
     "mapboxConfig": {
@@ -121,7 +110,7 @@
         "yasguiParams": {
             "contentTypeConstruct": "text/turtle",
             "contentTypeSelect": "application/sparql-results+json",
-            "endpoint": "https://ldf.fi/mmm/sparql",
+            "endpoint": "http://localhost:3030/OntoVE/sparql",
             "requestMethod": "POST",
             "tabTitle": "Exported query"
         }

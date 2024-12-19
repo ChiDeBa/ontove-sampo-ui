@@ -303,11 +303,11 @@ const TopBar = props => {
                 borderLeft: '2px solid white'
               })}
             />
-            {renderDesktopTopMenuItem({
+            {/*renderDesktopTopMenuItem({
               id: 'feedback',
               externalUrl: props.layoutConfig.topBar.feedbackLink,
               label: intl.get('topBar.feedback')
-            })}
+            })*/}
             <TopBarInfoButton rootUrl={props.rootUrl} layoutConfig={layoutConfig} />
             {topBar.externalInstructions && renderDesktopTopMenuItem({
               id: 'instructions',
@@ -331,7 +331,7 @@ const TopBar = props => {
                 location={props.location}
               />}
           </Box>
-          <Box
+         {/* <Box
             component='a'
             href='https://seco.cs.aalto.fi'
             target='_blank'
@@ -343,7 +343,7 @@ const TopBar = props => {
               }
             })}
           >
-            <Button aria-label='link to Semantic Computing research group homepage'>
+            <Button aria-label='link to Semantic Computing research group homepage'> 
               <Box
                 component='img'
                 src={secoLogo}
@@ -356,7 +356,8 @@ const TopBar = props => {
                 })}
               />
             </Button>
-          </Box>
+          </Box> 
+              */}
           <Box
             sx={theme => ({
               display: 'flex',
