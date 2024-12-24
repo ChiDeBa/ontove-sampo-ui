@@ -1,0 +1,19 @@
+@software{de_bastiani_2024_14551333,
+  author       = {De Bastiani, Chiara and
+                  Aiola, Chiara and
+                  Bertozzi, Alessandro and
+                  Buzzoni, Marina},
+  title        = {ChiDeBa/ontove-sampo-ui: Initial Release},
+  month        = dec,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v1.0.1.-alpha},
+  doi          = {10.5281/zenodo.14551333},
+  url          = {https://doi.org/10.5281/zenodo.14551333},
+  swhid        = {swh:1:dir:2031782fe2eeaf9c219325944259405c075949fc
+                   ;origin=https://doi.org/10.5281/zenodo.14551332;vi
+                   sit=swh:1:snp:6520b3261c2dbf08923d70c6c78e3ff2ea2b
+                   2015;anchor=swh:1:rel:30711a6b4824e9360b1486558d0c
+                   e55b50524f4d;path=ChiDeBa-ontove-sampo-ui-5c31b9b
+                  },
+}
