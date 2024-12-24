@@ -1,7 +1,7 @@
 {
     "id": "RelatedResources",
     "endpoint": {
-        "url": "http://localhost:3030/OntoVE/sparql",
+        "url": "http://ontove-endpoint.chitontove.it/",
         "useAuth": false,
         "prefixesFile": "SparqlQueriesPrefixes.js"
     },
