@@ -110,7 +110,7 @@
         "yasguiParams": {
             "contentTypeConstruct": "text/turtle",
             "contentTypeSelect": "application/sparql-results+json",
-            "endpoint": "http://localhost:3030/OntoVE/sparql",
+            "endpoint": "http://ontove-endpoint.chitontove.it/",
             "requestMethod": "POST",
             "tabTitle": "Exported query"
         }
